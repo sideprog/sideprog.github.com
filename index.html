@@ -3,11 +3,11 @@ layout: default
 title: Sideblog, le blog de Sideprog
 ---
 
-{% for post in site.posts %}
+{% for post in site.pages %}
 <div id="container">
   <div class="page-nav-top">
 
-      <a href="{{ post.url }}" title="{{ post.title }}">
+      <a href="{{ page.url }}" title="{{ page.title }}">
         {{ post.title }}
       </a>
 
