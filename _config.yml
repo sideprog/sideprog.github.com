@@ -9,7 +9,7 @@ markdown: rdiscount
 permalink: pretty
 
 safe: true
-source: "sideprog/sideprog.github.com"
+source: "https://github.com/sideprog/sideprog.github.com"
 destination: "sideprog.github.com/_site/"
 lsi: false
 pygments: true
