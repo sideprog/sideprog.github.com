@@ -1,0 +1,22 @@
+body {
+  font-family: 'Georgia', serif;
+  font-size: 1.45em;
+  color: #333333;
+  line-height: 1.5em;
+  background-color: #ffffff
+}
+
+.masthead{
+  margin: 0px 0px 20px 0px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: #999999;
+}
+
+h2 {
+  color: #444444;
+}
+
+.article{
+
+}
