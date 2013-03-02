@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>This is a wayback post</title>
+  <title>{{ page.title }}</title>
   <meta name="description" content="Journal de Sideprog" />
   <meta name="keywords" content="" />
   <meta name="author" content="Sideprog" />
@@ -18,8 +18,16 @@
   <![endif]-->
 </head>
 <body>
-  <h1><a href="/index.html">My First Jekyll-Powered Blog</a></h1>
-  Test
+ <div class="container">
+  <p class="muted text-center"><small>Journal de Sideprog</small></p>
+  <hr>
 
+  <div class="row">
+
+    <div class="span8 offset2 article">
+      {{ content }}
+    </div>
+  </div>
+</div>
 </body>
 </html>
