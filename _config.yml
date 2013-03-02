@@ -1,15 +1,9 @@
 name: "SideBlog"
 description: "Le blog de SideProg"
 
-
+url: "http://localhost:4000"
 
 paginate: 10
 
 markdown: rdiscount
 permalink: pretty
-
-safe: true
-source: "https://github.com/sideprog/sideprog.github.com"
-destination: "sideprog.github.com/_site/"
-lsi: false
-pygments: true
