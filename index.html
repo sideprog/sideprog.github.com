@@ -1,6 +1,16 @@
 ---
 layout: default
-title: This is a wayback post
+title: Sideblog, le blog de Sideprog
 ---
 
-Test
+{% for post in site.posts %}
+<div id="container">
+  <div class="page-nav-top">
+
+      <a href="{{ post.url }}" title="{{ post.title }}">
+        {{ post.title }}
+      </a>
+
+</div> <!-- /.entry-content -->
+</div> <!-- /#container -->
+{% endfor %}
