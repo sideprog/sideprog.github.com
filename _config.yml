@@ -10,6 +10,6 @@ permalink: pretty
 
 safe: true
 source: "sideprog/sideprog.github.com"
-destination: "_site"
+destination: "sideprog.github.com/_site/"
 lsi: false
 pygments: true
