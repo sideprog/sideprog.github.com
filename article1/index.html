@@ -6,9 +6,33 @@ title: Ceci est le fameux Lorem Ipsum
 <h2 class="text-center">Ceci est le fameux Lorem Ipsum</h2>
 <p class="muted text-center"><small>Ecrit par <em>Xavier</em> par un beau dimanche ensoleillé du <em>25 février 2013.</em> </small></p>
 <hr>
-{% highlight python %}
-def yourfunction():
-     print "Hello World!"
+{% highlight ruby %}
+class Bibliotheque
+
+   # Accès direct au tableau de livres
+   attr_reader :livres
+
+   # Méthode appelée à la création d'un objet bibliothèque qui initialise le tableau de livres
+   def initialize
+     @livres = []
+   end
+
+   # Ajoute un livre à la bibliothèque, s'il n'y est pas déjà
+   def ajouter livre
+     raise "Le livre #{livre} est déjà dans la bibliothèque" if @livres.include? livre
+     @livres << livre
+   end
+
+   # Retourne le nombre de livres dans la bibliothèque
+   def taille
+     @livres.length
+   end
+
+   # Retourne la liste des auteurs ayant écrit ou co-écrit au moins un livre dans la bibliothèque
+   def auteurs
+     @livres.map { |livre| livre.auteurs }.flatten.uniq
+   end
+ end
 {% endhighlight %}
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate, erat in tempus lacinia, nisi nulla ultrices lectus, vitae tempus elit quam quis felis. Etiam varius libero eu velit tristique auctor. Pellentesque in justo dolor. Nullam porta condimentum augue, eget rutrum orci tincidunt sit amet. Aenean ligula neque, tempus sed sagittis eu, eleifend vitae ipsum. Praesent orci massa, pharetra non porttitor eu, euismod quis purus. Maecenas nec enim quis orci sodales tristique id ut purus. Aenean mollis orci vel erat tempus faucibus. Nunc fringilla, turpis adipiscing volutpat pellentesque, enim orci ultricies lorem, nec aliquam dui orci ut odio. Morbi sodales lectus vel urna consectetur id suscipit neque dictum. Nunc eros risus, feugiat quis malesuada nec, <strong>venenatis id libero.</strong> Nullam cursus ullamcorper turpis, cursus sollicitudin elit tempor scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam cursus, dolor eget cursus bibendum, nunc lectus vehicula urna, at cursus dui est sed nunc. Duis volutpat, enim ut pellentesque tincidunt, nisl neque dapibus tellus, molestie placerat lacus mi ac felis.</p>
