@@ -1,16 +1,10 @@
 ---
-layout: default
+layout: post
 title: Sideblog, le blog de Sideprog
 ---
 
-{% for post in site.pages %}
-<div id="container">
-  <div class="page-nav-top">
-
-      <a href="{{ page.url }}" title="{{ page.title }}">
-        {{ post.title }}
-      </a>
-
-</div> <!-- /.entry-content -->
-</div> <!-- /#container -->
+<ul>
+{% for post in site.posts %}
+<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
+</ul>

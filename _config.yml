@@ -8,4 +8,4 @@ paginate: 10
 markdown: rdiscount
 permalink: none
 
-pygments: true
+
