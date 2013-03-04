@@ -1,7 +1,6 @@
 name: "SideBlog"
 description: "Le blog de SideProg"
 
-url: "http://localhost:4000"
 
 paginate: 10
 
