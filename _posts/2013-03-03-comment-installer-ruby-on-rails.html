@@ -26,7 +26,7 @@ published: false
 <img src="/assets/images/1.png" alt="SideBlog - installation de Vagrant">
 <p>Ensuite, je tape simplement :
 </p>
-{% highlight shell %}
+{% highlight %}
 gem install vagrant
 {% endhighlight %}
 <img src="/assets/images/2.png" alt="SideBlog - installation de Vagrant">
@@ -39,13 +39,13 @@ gem install vagrant
 <p>Voici déjà la dernière étape : le téléchargement et l’installation d’une « box » vagrant, c’est-à-dire d’un environnement de développement virtuel. En surfant sur ce site qui en présente un assortiement, mon choix se porte sur une version Ubuntu 11.10 server amd64.</p>
 
 <p>Elle s’installe de la façon suivante : retour dans la ligne de commande, et entrée des commandes :</p>
-{% highlight shell %}
+{% highlight %}
 vagrant box add ubuntu-1110-server-amd64 http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box
 vagrant init ubuntu-1110-server-amd64
 vagrant up
 {% endhighlight %}
 <p>Et voilà, la box est lancée. Il nous reste à nous connecter à notre serveur ubuntu tout neuf, via ssh. Pour ce faire, tapez</p>
-{% highlight shell %}
+{% highlight %}
 vagrant ssh
 {% endhighlight %}
 <p>et suivez les indications. En gros, le résultat de la commande va vous dire que, sous windows, vous ne pouvez pas vous connecter directement, et que vous allez devoir télécharger Putty, et le paramétrer avec les données qui vous sont données.</p>
@@ -58,13 +58,13 @@ vagrant ssh
 <img src="/assets/images/3.png" alt="SideBlog - installation de Vagrant">
 <p>L’installation de Ruby et Rails est alors assez facile. Il suffit d’entrer les commandes suivantes :</p>
 <h4>Mise à jour du système</h4>
-{% highlight shell %}
+{% highlight %}
 sudo apt-get update
 sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl libssl-dev libreadline6-dev postgresql postgresql-server-dev-9.1
 {% endhighlight %}
 
 <h4>Installation de rbenv</h4>
-{% highlight shell %}
+{% highlight %}
 cd
 git clone git://github.com/sstephenson/rbenv.git .rbenv
 echo ‘export PATH= »$HOME/.rbenv/bin:$PATH »‘ >> ~/.bash_profile
@@ -82,7 +82,7 @@ ruby -v
 {% endhighlight %}
 
 <h4>Installation de Ruby on Rails</h4>
-{% highlight shell %}
+{% highlight %}
 gem install rails
 gem install bundler
 rbenv rehash
