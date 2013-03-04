@@ -64,11 +64,11 @@ sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev 
 {% endhighlight %}
 
 <h4>Installation de rbenv</h4>
-{% highlight ruby %}
+{% highlight shell %}
 cd
 git clone git://github.com/sstephenson/rbenv.git .rbenv
-echo ‘export PATH= »$HOME/.rbenv/bin:$PATH »‘ >> ~/.bash_profile
-echo ‘eval « $(rbenv init -) »‘ >> ~/.bash_profile
+echo export PATH= $HOME/.rbenv/bin:$PATH  >> ~/.bash_profile
+echo eval $(rbenv init -)  >> ~/.bash_profile
 source ~/.bash_profile
 
 git clone https://github.com/sstephenson/ruby-build.git
