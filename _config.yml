@@ -1,9 +1,6 @@
 name: "SideBlog"
 description: "Le blog de SideProg"
-
-
 paginate: 10
-
 markdown: rdiscount
 permalink: none
 
