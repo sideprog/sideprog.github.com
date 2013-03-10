@@ -4,7 +4,7 @@ title: Conception et programmation d'un jeu web par l'exemple
 category: personnel
 tags:
 - personnel
-published: true
+published: false
 ---
 
 <h1 class="text-center">Conception et programmation d'un jeu web par l'exemple</h1>
