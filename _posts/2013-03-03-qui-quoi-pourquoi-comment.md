@@ -4,21 +4,31 @@ title: Conception et programmation d'un jeu web par l'exemple
 category: personnel
 tags:
 - personnel
-published: false
+published: true
 ---
 
 <h1 class="text-center">Conception et programmation d'un jeu web par l'exemple</h1>
-<p class="muted text-center"><small>Écrit par <em>Xavier</em> par un beau dimanche ensoleillé du <em>25 février 2013.</em> </small></p>
+<p class="muted text-center"><small>Article de <em>{{ page.content | number_of_words }} mots </em>publié par <em>Xavier</em> par un beau dimanche ensoleillé du <em>25 février 2013</em> et qui vous prendra environ <em>xxx minutes</em> à lire. </small></p>
 <hr>
 
 ## Qui
 
-Je m'appelle Xavier, et je suis l'auteur de ce blog. Je ne suis ni programmeur, ni concepteur de jeu, mais j'ai l'envie depuis très longtemps de concevoir un jeu.
+Je m'appelle Xavier, et je suis l'auteur de ce blog. Trentenaire, marié, père de famille, mon vrai boulot c'est la finance. Je ne suis pas programmeur, je n'ai jamais conçu de jeu, et je ne suis même pas ce qu'on pourrait appeler un gros consommateur de jeu (mais c'est surtout faite de temps).
+
+Par contre, j'ai toujours adoré créer, et j'ai toujours un peu programmé depuis mon adolescence. Depuis quelques mois, je me suis donc mis en tête d'essayer de créer un jeu web. Évidemment, entre le boulot, mes obligations familiales, le train train quotidien, et la fatigue générale, je suis continuellement en train de remettre le début du travail de conception et programmation au lendemain.
+
+Mais il est temps de cesser de toujours reporter, et de commencer.
 
 Cet article a pour objectif de vous parler de mon projet de programmation d'un jeu web et d'exposer brièvement la manière dont je vais m'y prendre et dont je rendrai compte de mes progrès. Si vous aussi vous avez un projet similaire dans vos cartons, vous devriez certainement vous reconnaitre dans les démarches et les difficultés que je décris.
 
 ## Quoi
-Un jeu, et peut être dans le domaine des gestions de compagnie aérienne, qui n'est pas encore trop bondé.
+Curieusement, même si je sais que je veux créer un jeu web, je n'ai pas encore décidé du type de jeu. Quel type de jeu? Dans quel univers de jeu? Quel mode de fonctionnement? Rien de tout ça n'est fixé pour le moment.
+
+Par contre, je sais que je veux me lancer sur une niche relativement épargnée par les gros studios, et faire quelque chose d'original.
+
+Par ailleurs, je compte lancer assez vite une version alpha, mal finalisée, bancale, mais à peu près jouable. Ceci afin de recueillir dès que possible un retour d'expérience des quelques joueurs qui auront bien voulu m'aider à tester le jeu, et prendre en compte ces retours pour améliorer le jeu.
+
+Itérations rapides.
 
 ## Pourquoi
 
