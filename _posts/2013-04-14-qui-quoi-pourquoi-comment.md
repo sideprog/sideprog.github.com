@@ -8,7 +8,7 @@ published: true
 ---
 
 <h1 class="text-center">Conception et programmation d'un jeu web par l'exemple</h1>
-<p class="muted text-center"><small>Article de <em>{{ page.content | number_of_words }} mots </em>publié par <em>Xavier</em> par un beau dimanche ensoleillé du <em>25 février 2013</em> et qui vous prendra environ <em>xxx minutes</em> à lire. </small></p>
+<p class="muted text-center"><small>Article de <em>{{ page.content | number_of_words }} mots </em>publié par <em>Xavier</em> par un beau dimanche ensoleillé du <em>14 avril 2013</em> et qui vous prendra environ <em>xxx minutes</em> à lire. </small></p>
 <hr>
 
 ## Qui
