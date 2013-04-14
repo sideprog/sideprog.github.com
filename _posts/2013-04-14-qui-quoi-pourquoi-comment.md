@@ -77,7 +77,7 @@ Par ailleurs, je voulais un blog rapide. Après quelques recherches, j'ai finale
 
 Utilisation de [Markdown](http://daringfireball.net/projects/markdown/basics) et du sublime éditeur [Sublime Text](http://www.sublimetext.com/).
 
-Je rédige donc le présent post dans Sublime Text, en mode "distraction free" (xxxx insérer capture d'écran)
+Je rédige donc le présent post dans Sublime Text, en mode "distraction free" :
 
 ![SideBlog - test image](/assets/images/5.png)
 
