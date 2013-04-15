@@ -67,15 +67,17 @@ Je détaillerai dans un prochain article, et pour ceux que ça intéresse, le **
 
 Ce blog a pour objectif de présenter mon travail dans la conception d'un jeu, mettre par écrit mes idées, difficultés, succès ou échecs.
 
-C'est un blog qui se veut *agréable à lire*, et dans cette phrase le mot clé est **lire**. J'ai fait quelques recherches sur la façon de présenter un texte en ligne pour qu'il soit le plus simple et agréable à lire. Je suis allé notamment sur les sites suivants (xxxxxxxxxxxxx).
+C'est un blog qui se veut *agréable à lire*, et dans cette phrase le mot clé est **lire**. J'ai fait quelques recherches sur la façon de présenter un texte en ligne pour qu'il soit le plus simple et agréable à lire. 
 
-Dès lors, j'utilise les caractéristiques suivantes.: taille des caractères et type, interligne, aération, paragraphes, sous titres, etc. Pas trop d'images.
+Dès lors, j'utilise les caractéristiques suivantes.: une police de caractère large, de type Serif, un interligne généreux, et une longueur de ligne mpdeste. Le texte est bien aéré, avec des paragraphes, des sous titres, etc. Et pas trop d'images, on est pas dans une bande dessinée.
 
 Ceci sera amené à changer au gré de mes recherches, envies et sensibilités du moment.
 
-Par ailleurs, je voulais un blog rapide. Après quelques recherches, j'ai finalement opté pour Jekyll, le tout hébergé sur Github, tout simplement. Site statique, Github, version control, édition partout, même au bureau. Tous les avantages presque sans inconvénient (quid de l'upload d'une image?)
+Par ailleurs, je voulais un blog *rapide*. Après quelques recherches, j'ai finalement opté pour [Jekyll](http://jekyllrb.com/), le tout hébergé sur Github, tout simplement. 
 
-Utilisation de [Markdown](http://daringfireball.net/projects/markdown/basics) et du sublime éditeur [Sublime Text](http://www.sublimetext.com/).
+Ce blog est donc un site statique, et le fait de l'héberger sur Github donne accès à un puissant système de gestion des version, des possibilités d'édition partout, même au bureau, et un hébergement fiable et rapide. Tous les avantages presque sans inconvénient, donc.
+
+Les articles sont régigés en utilisant [Markdown](http://daringfireball.net/projects/markdown/basics), et j'utilise comme sublime éditeur [Sublime Text](http://www.sublimetext.com/).
 
 Je rédige donc le présent post dans Sublime Text, en mode "distraction free" :
 
@@ -83,7 +85,7 @@ Je rédige donc le présent post dans Sublime Text, en mode "distraction free" :
 
 ### Un mot sur les commentaires et le RSS
 
-Ce blog se veut le plus simple possible. Et c'est très difficile. Tout comme pour la conception d'un jeu, la solution de facilité c'est d'avoir une usine à gaz dans laquelle on plug toutes les fonctionnalités possible et imaginables. Voyez ce qu'est devenu wordpress...
+Ce blog se veut le plus simple possible. Et ça, c'est très difficile. Tout comme pour la conception d'un jeu, la solution de facilité c'est d'avoir une usine à gaz sur laquelle on greffe toutes les fonctionnalités possible et imaginables. Voyez, par exemple, ce qu'est devenu wordpress: un mastodonte lourd, lent, avec une interface bancale...
 
 Mon objectif est donc de faire simple, d'aller à l'essentiel. Ais-je besoin dans l'immédiat d'un flux RSS? Et d'un système de commentaires des articles? Je ne le crois pas.
 
@@ -91,7 +93,7 @@ Néanmoins, que si vous souhaitez être prévenu de la publication de nouveaux a
 
 ## Où
 
-Pas encore d'adresse pour le jeu, mais j'en parlerai sur ce blog.
+Où sera hébergé le futur jeu? Eh bien puisqu'à ce stade je n'ai pas encore décidé de la nature du jeu, je n'ai donc pas encore ouvert de site. Mais dès que j'ai du nouveau, je vous ferai signe sur ce blog.
 
 ## Quand
 
