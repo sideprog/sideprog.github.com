@@ -30,7 +30,7 @@ Curieusement, même si je sais que je veux créer un jeu web, je n'ai pas encore
 
 Des questions comme: Quel type de jeu? Dans quel univers de jeu? Quel mode de fonctionnement? resteront encore quelques temps sans réponse.
 
-Par contre, je sais que je veux me lancer sur une **niche**. Pourquoi une niche? Parce-ce que, par définition, une niche est un domaine relativement épargnée par les gros studios, et donc sur lequel il y a moins de concurrent et où par conséquent j'ai une chance de pouvoir attirer des joueurs.
+Par contre, je sais que je veux me lancer sur une **niche**. Pourquoi une niche? Parce-ce que, par définition, une niche est un domaine relativement épargnée par les gros studios, et donc sur lequel il y a moins de concurrence et où par conséquent j'ai une chance de pouvoir attirer des joueurs.
 
 Mais trouver une niche va sans doute prendre du temps. Je veux passer un peu de temps à chercher avant de me lancer, afin de faire quelque chose qui soit, si possible, original.
 
@@ -51,7 +51,7 @@ Bon quelques années après je suis passé sur PC, et j'y suis resté fidèle ju
 
 Et donc même si je n'ai pas encore d'idée arrêtée pour le jeu, j'ai toutefois déjà décidé d'une chose: il sera programmé avec [Ruby on rails](http://rubyonrails.org/).
 
-Comme je m'intéresse à la programmation et que j'essaie de suivre de mon mieux l'évolution des langages de programmatin, je me suis tout naturellement intéressé aux [frameworks](http://fr.wikipedia.org/wiki/Framework) de développement web.
+Comme je m'intéresse à la programmation et que j'essaie de suivre de mon mieux l'évolution des langages de programmation, je me suis tout naturellement intéressé aux [frameworks](http://fr.wikipedia.org/wiki/Framework) de développement web.
 
 ### Un framework
 
