@@ -8,16 +8,16 @@ published: true
 ---
 
 <h1 class="text-center">Conception et programmation d'un jeu web par l'exemple</h1>
-<p class="muted text-center"><small>Article de <em>{{ page.content | number_of_words }} mots </em>publié par <em>Xavier</em> par un beau dimanche ensoleillé du <em>14 avril 2013</em> et qui vous prendra environ <em>xxx minutes</em> à lire. </small></p>
+<p class="muted text-center"><small>Article de <em>{{ page.content | number_of_words }} mots </em>publié par <em>Xavier</em> par un beau dimanche ensoleillé du <em>14 avril 2013</em> et qui vous prendra environ <em>5 minutes</em> à lire. </small></p>
 <hr>
 
 ## Qui
 
-Je m'appelle Xavier, et je suis l'auteur de ce blog. Trentenaire, marié, père de famille, mon vrai boulot c'est la finance. Je ne suis pas programmeur, je n'ai jamais conçu de jeu, et je ne suis même pas ce qu'on pourrait appeler un gros *consommateur* de jeu (mais c'est surtout faite de temps).
+Je m'appelle Xavier, et je suis l'auteur de ce blog. Trentenaire, marié, père de famille, mon vrai boulot c'est la finance. Je ne suis pas programmeur, je n'ai jamais conçu de jeu, et je ne suis même pas ce qu'on pourrait appeler un gros *consommateur* de jeu.
 
-Par contre, j'ai toujours adoré **créer**, et j'ai toujours un peu programmé depuis mon adolescence. Jamais rien de très sérieux, toutefois.
+Par contre, j'ai toujours adoré **créer**, et j'ai toujours un peu programmé depuis mon adolescence. Mais jamais rien de très sérieux, toutefois. En matière de programmation et de conception de jeu, je suis donc un simple amateur.
 
-Mais depuis quelques mois, je me suis mis en tête d'essayer de créer un jeu web. Évidemment, entre le boulot, mes obligations familiales, le train train quotidien, et la fatigue générale, je suis continuellement en train de remettre le début du travail de conception et programmation au lendemain.
+Mais depuis quelques mois, **je me suis mis en tête d'essayer de créer un jeu web**. Évidemment, entre le boulot, mes obligations familiales, le train-train quotidien, et la fatigue générale, je remets constamment le début du travail de conception et programmation au lendemain.
 
 Mais il est temps de cesser de toujours reporter au lendemain. La vie est courte, le temps file, les semaines succèdent aux jours, et les années aux semaines, et j'ai le sentiment que si je ne m'y mets pas, je vais le regretter.
 
@@ -26,7 +26,7 @@ Donc, il est temps de commencer.
 Cet article a pour objectif de vous parler de mon *projet de programmation d'un jeu web* et d'exposer brièvement la manière dont je vais m'y prendre et dont je rendrai compte de mes progrès. Si vous aussi vous avez un projet similaire dans vos cartons, vous devriez certainement vous reconnaitre dans les démarches et les difficultés que je décris.
 
 ## Quoi
-Curieusement, même si je sais que je veux créer un jeu web, je n'ai pas encore décidé du type de jeu.
+Curieusement, même si je sais que je veux créer un jeu web, je n'ai pas encore décidé du *type de jeu*.
 
 Des questions comme: Quel type de jeu? Dans quel univers de jeu? Quel mode de fonctionnement? resteront encore quelques temps sans réponse.
 
