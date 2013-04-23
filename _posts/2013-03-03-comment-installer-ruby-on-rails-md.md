@@ -1,27 +1,29 @@
 ---
 layout: post
-title: Comment programmer Ruby on Rails sous Windows sans pleur ni douleur
+title: Comment programmer Ruby on Rails sous Windows sans pleur ni douleur avec Vagrant
 category: technique
 published: false
 ---
-<h2 class="text-center">Comment programmer Ruby on Rails sous Windows sans pleur ni douleur</h2>
+<h2 class="text-center">Comment programmer Ruby on Rails sous Windows sans pleur ni douleur avec Vagrant</h2>
 <p class="muted text-center"><small>Ecrit par <em>Xavier</em> par un beau dimanche ensoleillé du <em>25 février 2013.</em> </small></p>
 ---
-Je suis sous Windows 7, et je n’ai pas envie de changer. Je n’ai ni les moyens d’acheter un Mac, ni envie de configurer un dual boot pour y installer linux.
+J'ai un PC équipé de Windows 7, et je n’ai pas envie de changer. Je n’ai ni les moyens d’acheter un Mac, ni envie de configurer un dual boot pour y installer linux. 
 
 Or, je ne pense pas lancer un gros troll en affirmant qu’en dehors de programmation .net, Windows est loi d’être l’outil de prédilection des programmeurs. Et il n’est certes pas idéal pour débuter avec Ruby on Rails.
-Comment faire alors ?
+Alors comment faire ?
 
-### Et Vagrant entra dans pièce
+### Oui, comment faire ?
 
-Eh bien ma solution (et celle de pas mal d’autres personnes, apparemment) s’appelle Vagrant.
+Eh bien ma solution (et celle de pas mal d’autres personnes, apparemment) s’appelle [Vagrant](http://www.vagrantup.com/).
 
-Il s’agit d’un outil permettant de créer et distribuer des environnements de développements virtuels. Il me permet ainsi de créer, sous mon petit Windows adoré, un environnement de développement virtuel sous, par exemple, Linux Ubuntu.
+Il s’agit d’un outil permettant de créer et distribuer des environnements de développements virtuels. Il permet ainsi de créer, par exemple sur un PC équipé de Windows, un environnement de développement virtuel sous, par exemple, Linux Ubuntu.
+
+Vagrant permet en fait de créer un grand nombre d'environnements de développement différents. L'idéal est peut-être, en tous cas c'est mon choix, de répliquer l'environnement d'un serveur de production.
 
 Voici comment j’ai procédé :
 
 ### 1. Installation de Ruby et Rubygems
-Avant d’installer Vagrant, il faut installer Ruby et Rubygems. Pour ce faire, direction RubyInstaller, téléchargement de la dernière version, et installation. J’ai bien entendu pris la dernière version (Ruby 1.9.3-p125 au moment où j’écris ces lignes).
+Avant d’installer Vagrant, il faut installer Ruby et Rubygems. Pour ce faire, direction [RubyInstaller](http://rubyinstaller.org/), téléchargement de la dernière version, et installation. J’ai bien entendu pris la dernière version (Ruby 1.9.3-p125 au moment où j’écris ces lignes).
 
 Sur le même site, il faut également également télécharger le « development kit », et l’installer en suivant les indications données ici.
 
