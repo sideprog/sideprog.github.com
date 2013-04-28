@@ -34,9 +34,9 @@ Avant d’installer Vagrant, il faut installer Ruby et Rubygems. Comme je vous l
 
 Pour ce faire, direction [RubyInstaller](http://rubyinstaller.org/), téléchargement de la dernière version, et installation. J'ai pour ma part installé la version 1.9.3p392.
 
-Sur le même site, il faut également également télécharger le « development kit », et l’installer en suivant les indications données [ici](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
+Sur le même site, il faut également télécharger le « development kit », et l’installer en suivant les indications données [ici](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
 
-Je ne vous garanti pas que l'installation se passera bien... Les joies de Ruby sous Windows vous obligeront peut être (ce fut mon cas), à devoir traiter telle ou telle erreur obscure. Impossible d'entrer dans les détails ici, surtout que les erreurs possibles dépendent de votre configuation et de la version de RubyInstaller que vous avez téléchargée. Sachez que Google est votre ami et pourra très certainement vous aider si vous rencontrez une erreur. Par ailleurs, n'hésitez pas à éventuellement télécharger une version moins récente (à nouveau, ce fut mon cas).
+Je ne vous garantis pas que l'installation se passera bien... Les joies de Ruby sous Windows vous obligeront peut être (ce fut mon cas), à devoir traiter telle ou telle erreur obscure. Impossible d'entrer dans les détails ici, surtout que les erreurs possibles dépendent de votre configuration et de la version de RubyInstaller que vous avez téléchargée. Sachez que Google est votre ami et pourra très certainement vous aider si vous rencontrez une erreur. Par ailleurs, n'hésitez pas à éventuellement télécharger une version moins récente (à nouveau, ce fut mon cas).
 
 En tous cas, sachez que c'est l'étape la plus difficile, donc ne vous découragez surtout pas.
 
@@ -56,7 +56,7 @@ gem install vagrant
 
 ![SideBlog - installation de Vagrant](/assets/images/2.png)
 
-Et je laisse l’installation se faire gentillement.
+Et je laisse l’installation se faire gentiment.
 
 Une fois l'installation de Vagrant achevée, nous allons voir comme installer le logiciel de virtualisation.
 
@@ -72,7 +72,7 @@ Passons maintenant à l'avant-dernière étape: l'installation du système d'exp
 
 ## 4. Installation d’une box Vagrant
 
-Nous arrivons tout doucement au bout, avec le téléchargement et l’installation d’une « box » vagrant, c’est-à-dire d’un environnement de développement virtuel. En surfant sur [ce site](http://www.vagrantbox.es/) qui en présente un assortiement, mon choix se porte sur une version Ubuntu 11.10 server amd64.
+Nous arrivons tout doucement au bout, avec le téléchargement et l’installation d’une « box » vagrant, c’est-à-dire d’un environnement de développement virtuel. En surfant sur [ce site](http://www.vagrantbox.es/) qui en présente un assortiment, mon choix se porte sur une version Ubuntu 11.10 server amd64.
 
 Elle s’installe de la façon suivante : retour dans la ligne de commande, et entrée des commandes :
 
@@ -92,23 +92,24 @@ et suivez les indications. En gros, le résultat de la commande va vous dire que
 
 A noter qu’en ce qui me concerne, je n’ai pas pu utiliser la clé telle qu’elle était donnée. J’ai d’abord du la charger dans puttygen (fourni lors de l’installation de Putty), puis la sauvegarder à nouveau pour qu’elle soit utilisable par Putty (problème de format, apparemment).
 
-Une fois connecté en SSH, il ne rest plus qu’à installer ruby on rails.
+Une fois connecté en SSH, il ne reste plus qu’à installer ruby on rails.
 
 ## 5. Installation de Ruby on Rails sur notre serveur virtuel
 
 Je suis donc désormais connecté à mon serveur virtuel en SSH via Putty.
+
 ![SideBlog - installation de Vagrant](/assets/images/3.png)
 
 L’installation de Ruby et Rails est alors assez facile. Il suffit d’entrer les commandes suivantes :
 
-#### Mise à jour du système
+### Mise à jour du système
 
 {% highlight ruby %}
 sudo apt-get update
 sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl libssl-dev libreadline6-dev postgresql postgresql-server-dev-9.1
 {% endhighlight %}
 
-#### Installation de rbenv
+### Installation de rbenv
 
 {% highlight text %}
 cd
@@ -127,7 +128,7 @@ rbenv global 1.9.2-p290
 ruby -v
 {% endhighlight %}
 
-#### Installation de Ruby on Rails
+### Installation de Ruby on Rails
 
 {% highlight ruby %}
 gem install rails
